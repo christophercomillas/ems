@@ -1,0 +1,1102 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: no;
+}
+
+input[type='text']{
+	padding: 0px;
+	margin: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+}
+
+body,html{
+	font-family: tahoma;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+}
+
+div.container86{
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	max-height: 600px;
+	min-height: 600px !important;
+	overflow: hidden;
+}
+
+div.content-left
+{
+	width: 630px;
+	background: #DDDDDD;
+	height: 600px;
+}
+
+div.content-right
+{
+	width: 170px;
+	float: right;
+	background-color: #DDD;
+	height: 600px;
+}
+
+button.btns{
+	height: 75px;
+	width: 100%;
+	border: 1px solid #fff;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	padding: 18px;
+	cursor: pointer;
+	position: relative;
+	color: #fff;
+}
+
+button.btnborderbot{
+	border-bottom: none;
+}
+
+div.containerscan{
+	height: 60px;
+	width: 628px;
+	background-color: #DDDDDD;
+}
+
+label.labelscan{
+	width: 170px;
+	font-family: tahoma;
+	font-size: 20px;
+	text-align: right;
+	margin-top: 16px;
+}
+
+div.content-left input[type='text'].scan{
+	font-size: 34px;
+	font-weight: bold;
+	line-height: 40px;
+	height: 40px;
+	width: 450px;
+    margin: 0px;
+    text-align: right;
+    vertical-align: middle;
+    border: 1px solid #FF7D02;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+    font-family: tahoma;
+    float: right;
+    margin-top: 10px;
+}
+
+
+
+input.scan, button:focus{
+	color: #000;
+	outline: none;
+}
+
+div.tablecontainer{
+	width: 100%;
+}
+
+table.tablef{
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #fff;
+	font-weight: bold;
+}
+
+table.tablef thead tr th{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: bisque;
+	border: 1px solid #dfdfdd;	
+}
+
+table.tablef thead tr th.itemnameth{
+	width: 210px;
+	text-align: center;
+}
+
+table.tablef thead tr th.barcodethrev{
+	width: 140px;
+	text-align: center;	
+}
+
+table.tablef thead tr th.barcodethref{
+	width: 160px;
+	text-align: center;	
+}
+
+
+table.tablef tbody tr{
+	height: 32px;
+}
+
+table.tablef tbody tr td{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border: 1px solid #dfdfdd;	
+}
+
+table.tablef tbody tr td.btnsidetd,
+table.tablef tbody tr td.btnsidetdrev,
+table.tablef tbody tr td.btnsidetdref
+{
+	text-align: center;
+	width: 15px;
+}
+
+table.tablef tbody tr td.itemnametd{
+	text-align: center;
+	width: 248px;
+}
+
+table.tablef tbody tr td.barcodetdrev{
+	text-align: center;
+	width: 125px;
+}
+
+table.tablef tbody tr td.barcodetdref{
+	text-align: center;
+	width: 145px;
+}
+
+table.tablef tbody tr td.verifiedtdrev{
+	text-align: center;
+	/*width: 98px;*/
+	width: 125px;
+}
+
+table.tablef tbody tr td.paymentrevtd{
+    text-align: right;
+    padding-right: 6px;
+}
+
+table.tablef tbody tr td.subdiscref{
+	text-align: center;
+	/*width: 98px;*/
+}
+
+
+table.tablef tbody tr td.soldrelrevtdrev{
+	text-align: center;
+	width: 125px;
+}
+
+table.tablef thead tr th.daterevth{
+	text-align: center;
+	width: 125px;
+}
+
+table.tablef thead tr th.vefpaymentth{
+	text-align: center;
+}
+
+table.tablef tbody tr td.linediscref{
+	text-align: center;
+	width: 135px;
+}
+
+table.tablef thead tr th.qtyth{
+	width: 60px;
+	text-align: center
+}
+
+table.tablef thead tr th.typethrev{
+	width: 96px;
+	text-align: center	
+}
+
+table.tablef thead tr th.typethref{
+	width: 96px;
+	text-align: center	
+}
+
+table.tablef tbody tr td.qtytd{
+	width: 75px;
+	text-align: right;
+	padding-right: 12px;
+}
+
+table.tablef tbody tr td.dsctd{
+	width: 102px;
+	text-align: right;
+	padding-right: 12px;
+}
+
+table.tablef tbody tr td.nettd{
+	width: 94px;
+	text-align: right;
+	padding-right: 12px;
+}
+
+table.tablef tbody tr td.srptd{
+	text-align: right;
+	padding-right: 12px;
+}
+
+table.tablef tbody tr td.typetdrev{
+	width: 96px;
+	text-align: right;
+	padding-right: 22px;
+}
+
+table.tablef tbody tr td.typetdref{
+	width: 96px;
+	text-align: right;
+	padding-right: 22px;
+}
+
+table.tablef thead tr th.denomth{
+	width: 77px;
+	text-align: center;
+}
+
+table.tablef thead tr th.denomthref{
+	width: 100px;
+	text-align: center;
+}
+
+
+table.tablef tbody tr td.denomtd{
+	width: 70px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+table.tablef tbody tr td.denomtdrev{
+	width: 77px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+table.tablef tbody tr td.denomtdref{
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+table.tablef thead tr th.soldrelrev{
+	width: 125px;
+	text-align: center	
+}
+
+table.tablef thead tr th.soldrelref{
+	width: 135px;
+	text-align: center	
+}
+
+table.tablef thead tr th.disctypeth{
+	width: 88px;
+	text-align: center;
+}
+
+table.tablef tbody tr td.disctypetd{
+	text-align: center;
+	width: 80px;
+}
+
+table.tablef thead tr th.discprcntth{
+	width: 77px;
+	text-align: center;
+}
+
+table.tablef tbody tr td.discprcnttd{
+	width: 70px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+table.tablef thead tr th.discamtth{
+	width: 82px;
+	text-align: center;
+}
+
+table.tablef tbody tr td.discamttd{
+	width: 75px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+table.tablef thead tr th.netamtth{
+	width: 75px;
+	text-align: center;
+}
+
+table.tablef tbody tr td.netamttd{
+	text-align: right;
+	width: 87px;
+	padding-right: 10px;
+}
+
+div.content{
+    position: relative;
+    width: 630px;
+    height: 320px;   
+    overflow: hidden;
+}
+
+div.scrollable{
+   height: 320px;   
+   width: 650px;
+   overflow-y: scroll;   
+}
+
+div.item-list{
+	width: 630px;
+/*    max-height: 320px;
+    overflow: auto;
+    min-height: 320px;
+    overflow-y: scroll;
+    overflow-x: hidden;*/
+}
+
+/* Button design*/
+
+button span.btnkey{
+	position: absolute;
+	left: 3px;
+    top: 3px;
+    font-size: 13px;
+}
+
+button span.nextrow{
+	position: absolute;
+	right: 3px;
+	top: 3px;
+}
+
+button.f1{
+	background-color: #004080;
+}
+
+button.f2{
+	background-color: #d86c00;
+}
+
+button.f3{
+	background-color: #ff72ff;
+}
+
+button.f4{
+	background-color: #a9a800;
+}
+
+button.f5{
+	background-color: #007fff;
+}
+
+button.f6{
+	background-color: #860085;
+}
+
+button.f7{
+	background-color: #017f40;
+}
+
+button.f8{
+	background-color: #ff7f00;
+}
+
+button.btnside{
+	border: 0px;
+	color: #fff;
+	background:none;
+	font-weight: bold;
+}
+
+button.btnside:focus{
+	outline: none;
+	color: red;
+}
+
+div.transacdetails{
+	height: 144px;
+	max-height: 144px;
+	min-height: 144px;
+	margin-top: 1px;
+}
+
+div.tdetails-left{
+    width: 290px;
+    height: 144px;
+    margin-left: 6px;
+}
+
+div.tdetials-right{
+    float: right;
+    width: 320px;
+    height: 144px;
+}
+
+table.tabledetails{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+input[type="text"].amts{
+	width: 120px;
+    font-size: 17px;
+    font-weight: bold;
+    height: 22px;
+    border: 1px solid #150505;
+    text-align: right;
+    border-bottom: none;
+    padding-right: 4px;
+}
+
+input[type="text"].amts-b{
+	border-bottom: 1px solid #150505;
+}
+
+input.response-msg{
+	width: 313px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+h4.amt-due{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+input.inp-amtdue{
+	margin-left: 2px;
+	font-size: 32px;
+	width: 307px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 6px;
+	color:red;
+}
+
+div.footerpanel{
+	width: 630px;
+}
+
+table.tablefooter{
+	width: 620px;
+	background-color: #DDDDDD;
+	height:21px;
+	font-weight: bold;
+}
+
+table.tablefooter tr td.store_footer{
+	width: 40px;
+	text-align: left;
+	padding-left: 2px;
+}
+
+table.tablefooter tr td.store_footer1{
+	width: 40px;
+	text-align: left;
+	padding-left: 2px;
+}
+
+table.tablefooter tr td.storename_footer{
+	width: 140px;
+	text-align: left;
+	background: #fff;
+	padding-left: 6px;
+}
+
+table.tablefooter tr td.storename_footer1{
+	width: 140px;
+	text-align: left;
+	padding-left: 6px;
+}
+
+table.tablefooter tr td.cashier_footer{
+	width: 60px;
+	text-align: left;
+	padding-left: 4px;
+}
+
+table.tablefooter tr td.cashiername_footer{
+	width: 170px;
+	text-align: left;
+	padding-left: 6px;
+	background: #fff;
+}
+
+table.tablefooter tr td.cashiername_footer1{
+	width: 170px;
+	text-align: left;
+	padding-left: 6px;
+}
+
+table.tablefooter tr td.datetime{
+	text-align: right;
+}
+
+div.payment-mode,
+div.otherincome-mode,
+div.cashier-sales,
+div.cashier-receiving,
+div.cashier-paymentmode,
+div.cashier-reports,
+div.cashier-account,
+div.content-receiving,
+div.content-eloadsales,
+div.reports,
+div.discounts,
+div.revalidation,
+div.gcreturn,
+div.returngc,
+div.cashier-others,
+div.reports-cahshier{
+	display: none;
+}
+
+/* modal dialog styles */
+
+.modal-header{
+	padding: 8px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.modal-footer{
+	padding: 8px;
+}
+
+.modal-body label.lbl-c{
+	font-weight: bold;
+	padding-top: 6px;
+}
+
+.modal-body label.lbl-c.scharge{
+	font-size: 20px;
+}
+
+.modal-body button.btn-d{
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.modal-body .text-danger{
+	font-size: 11px;
+	font-weight: bold;
+}
+
+input[type='text'].inpmed, 
+input[type='password'].inpmed,
+select.inpmed{
+    font-weight: bold;
+    text-align: right;
+    padding: 0px;
+    height: 26px;
+    color:#000;
+    font-size: 18px;
+    padding-right: 3px;
+}
+
+input[type='text'].inpmedx{
+    font-weight: bold;
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    height: 28px;
+    color: #000;
+    font-size: x-large;
+    padding-right: 3px;
+    border: 1px solid lightseagreen;
+}
+
+textarea.inpmed{
+    font-weight: bold;
+    text-align: right;
+    padding: 0px;
+    color:#000;
+    font-size: 18px;
+}
+
+label.alignleft,
+input[type='text'].alignleft, 
+textarea.alignleft,
+input[type='password'].alignleft{
+	text-align: left;
+	padding-left: 3px;
+}
+
+label.alignright,
+input[type='text'].alignright, 
+textarea.alignright,
+input[type='password'].alignright{
+	text-align: right;
+	padding-right: 3px;
+}
+
+
+input[type='text'].paycash{
+	font-weight: bold;
+    font-size: 32px;
+    height: 32px;
+    line-height: 40px;
+    color: blue;
+    border-color: #000;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+input[type='text'].inpred{
+	color: red;
+}
+
+.modal-body div.danger-o{
+	padding: 8px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+form.frmcash{
+	margin-bottom: 6px;
+}
+
+.modal-body label.lbl-top{
+    padding-left: 2px;
+    font-size: 14px;
+}
+
+select.inplar, select > option{
+    font-weight: bold;
+    color: #000;
+    font-size: 15px;
+    line-height: 40px;
+    height: 30px;
+    padding: 0px;
+}
+
+input[type='text'].inplar, input[type='password'].inplar{
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    height: 34px;
+    line-height: 30px;
+}
+
+.modal-body div.form-group{
+	margin-bottom: 6px;
+}
+
+.gcrevalidate .modal-dialog{
+	 width: 680px;
+}
+
+.modal-small .modal-dialog{
+    width: 420px;
+}
+
+.modal-medium .modal-dialog{
+    width: 460px;
+}
+
+.changetrdate .modal-dialog{
+    width: 330px;
+}
+
+.changepass .modal-dialog{
+    width: 180px;
+}
+
+.eosreportdialog .modal-dialog{
+	 width: 480px;
+}
+
+.paymentcash .modal-dialog{
+	 width: 310px;
+}
+
+.login-supervisor .modal-dialog{
+	width: 300px;
+}
+
+.confirmationpayment .modal-dialog{
+	top:90px;
+	width: 380px;
+}
+
+.scharge .modal-dialog{
+	width: 420px;
+}
+
+.modal-body .f1lookuptxt{
+	text-align: left;
+	padding-left: 0px;
+	padding-top: 4px;
+	font-weight: bold;
+	font-size: 13px;
+	color: darkblue;
+}
+
+.gcdiscount .modal-dialog{
+	width: 400px;
+}
+
+.modal-body{
+	padding: 17px;
+}
+
+/* end modal styles */
+
+/* Resibo Styles */
+#print-receipt{
+	display: block;
+	background-color: #fff;
+	z-index: 2999;	
+	left: 100px;
+	/*top:20px;*/
+	border: 1px solid #000;
+}
+
+#xprintreports{
+	display: none;
+	position: absolute;	
+	background-color: #fff;
+	z-index: 3000;	
+	left: -300px;
+	width: 300px;
+	/*top: -203px; */
+	top:20px;
+	border: 1px solid #000;
+}
+
+#print-receipt h4,h3,h5,p{
+	text-align: center;
+}
+
+.receipt-slo{
+	font-size: 11px;
+}
+
+h3.store-name{
+	margin-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h4.official{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#print-receipt h3.transactnum{
+	font-size: 11px;
+	text-align: left;
+	padding-left: 20px;
+	font-weight: bold;	
+}
+
+#print-receipt .cashiername,
+#print-receipt .cashiersig { 
+	text-align: center;
+	font-size: 11px;
+	color:#000;
+}
+
+#print-receipt .cashiersig{
+	margin-bottom: 6px;
+}
+
+#print-receipt .cashiersig span.cashiersigspan{
+	border-top: 1px solid #000;
+}
+
+.receipt-msg{
+	text-align: center;
+	font-size: 12px;
+}
+
+table.tablefooterrec tbody tr td{
+	border:none;
+	padding: 3px
+}
+
+table.tablefooterrec tbody tr td.mright{
+	text-align: right;
+}
+
+table.tablefooterrec tbody tr td.mrightdis{
+	border-bottom: 1px solid #000;
+}
+
+table.resibo thead th.receipt_items,
+table.resibo tbody td.receipt_items{
+	text-align: right;
+}
+
+table.tablefooterrec tbody tr td.boldie{
+	font-weight: bold;
+}
+/* Resibo Styles */
+
+.alert-danger, .alert-success{
+	margin-bottom: 0px;
+	font-weight: bold;
+	padding: 8px;
+}
+
+.hidediv{
+	display: none;
+}
+
+.posreport .modal-dialog{
+	width: 380px;
+	top: -20px;
+}
+
+.changeaccount .modal-dialog{
+	width: 410px;
+	top: -20px;
+}
+
+.changeaccountpass .modal-dialog{
+	width: 440px;
+	top: -20px;
+}
+
+div.showhide {
+    display: none;
+}
+
+div.refdetail {
+    background-color: #fff;
+}
+
+div.refheader {
+    padding: 6px;
+    background-color: cornsilk;
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"].inptxtmed{
+	font-size: 14px;
+	text-align: left;
+}
+
+div.refdetail div.refgroup {
+    padding: 0 3px;
+}
+
+.gcreturn .modal-dialog {
+	top: -10px;
+    width: 760px;
+}
+
+.pdfshow .modal-dialog{
+	top:-30px;
+	width: 450px;
+}
+
+.pdfshowModal .modal-dialog{
+	top:-30px;
+	width: 650px;
+}
+
+.lookup .modal-dialog{
+	top:0px;
+	width: 460px;
+}
+
+input[type="text"].hid{
+	display: none;
+}
+
+.form-group .mb{
+	margin-bottom: 0px;
+}
+
+.content-sales{
+	min-height: 555px;
+	max-height: 555px;
+}
+
+.content-main{
+	min-height: 555px;
+	max-height: 555px;
+}
+
+.content-eloadsales{
+	min-height: 555px;
+	max-height: 555px;
+	display: none;
+}
+
+.content-revalidate{
+	min-height: 555px;
+	max-height: 555px;
+	display: none;
+}
+
+.content-returngc{
+	min-height: 555px;
+	max-height: 555px;
+	display: none;
+}
+
+
+.transacdetails{
+	max-height: 144px;
+	min-height: 144px;
+}
+
+h4.revaltitle{
+	margin: 0px;
+    padding: 12px;
+    font-family: tahoma;
+}
+
+div.alert-reval{
+	font-size: 14px;
+    margin-bottom: 10px;
+    padding: 13px;
+}
+
+.dialog-alert{
+  font-family: tahoma;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h3.totref{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 22px;
+	font-family: tahoma;
+	text-align: right;
+}
+
+h3.totrefs{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+	font-weight: bold;
+	font-family: tahoma;
+	color: red;
+}
+
+label.lblamtnder{
+    font-size: 20px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+input.red{
+	color:red;
+}
+
+.response-lookup{
+	padding: 10px;
+}
+
+.table-lookupres{
+	margin-bottom:0px;
+	font-weight: bold;
+	background-color: beige;
+}
+
+table.table.table-lookupres tr td{
+	border-top: 0px;
+}
+
+table.table.table-lookupres tr td:first-child{
+	text-align: right;
+}
+
+div.lookpromo{
+	text-align: center;
+	background-color: beige;
+    padding: 10px;
+    font-weight: bold;
+}
+
+label.control-label.lblshtt{
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+    color: blue;
+    padding-top: 4px;
+}
+
+@media print{ 
+	.panel-body .printable-content{
+		margin: 10px;
+	}
+}
+
+.title-eload{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 120px;
+	font-family: fantasy;
+}
+
+div.form-container label.label-dialog{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+select.select-dialog{
+	font-weight: bold;
+    color: #000;
+    border: 1px solid lightseagreen;
+}
+
+div.eloadiv{
+	display: none;
+}
+
+div.noteload{
+	display: none;
+}
+
+td span.reqspan, form-group span.reqspan{
+	color: red;
+	font-size: 10px;
+}
+
+.c-title{
+    margin: 0px;
+    text-align: left;
+    padding: 6px;
+}
+
+div.containerscan-new{
+    height: 44px;
+    width: 628px;
+    background-color: #DDDDDD;
+}
+
+.snowflake {
+    /* Set your own z-index for snowflakes */
+    z-index: 9999;
+}
+
+span.reqspan{
+	color: red;
+}

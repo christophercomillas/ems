@@ -1,0 +1,14 @@
+.login-box, .register-box {
+    width: 360px;
+    margin: 3% auto;
+}
+
+.alert-danger.alert-x{
+	margin: 0px 10px 6px 10px;
+	padding: 6px;
+}
+
+input.boldie{
+	font-weight: bold;
+	font-family: "Tahoma";
+}
